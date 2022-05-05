@@ -1,6 +1,8 @@
 <template>
-    <div>
-        header
+    <div class="container">
+        <div class="logo">
+            <img src="@/logo.png" alt="logo">
+        </div>
     </div>
 </template>
 
@@ -11,6 +13,21 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    .container{
+        height: 80px;
+        display: flex;
+        background-color: #2e3a46;
+        
+    }
+    .logo{
+        width: 80px;
+        padding: 5px;
+
+        img{
+            height: 100%;
+
+        }
+    }
 
 </style>
